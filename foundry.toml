@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    "@chainlink/contracts/=/home/aditya/data/mywork/Blockchain/contracts/lib/chainlink-brownie-contracts/contracts/",
+    "foundry-devops/src/=/home/aditya/data/mywork/Blockchain/contracts/lib/foundry-devops/src/"
+]
+ffi= true
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
